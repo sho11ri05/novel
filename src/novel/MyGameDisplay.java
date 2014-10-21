@@ -14,7 +14,10 @@ public class MyGameDisplay extends GameDisplay {
 	GameDisplay title, main, end;
 	private Font mfont = new Font("Sanserif", Font.BOLD, 35);
 	private Font mfont2 = new Font("Sanserif", Font.BOLD, 15);
-
+	private int countPush = 0;
+	
+	
+	
 	public MyGameDisplay(){
 		this.title = new MyGameTitle();
 		this.main = new MyGameMain();
@@ -85,19 +88,20 @@ public class MyGameDisplay extends GameDisplay {
 			ginfo.g.setColor(Color.WHITE);
 			ginfo.g.setFont(MyGameDisplay.this.mfont2);
 //			String str = "サンプル";
-			str = kotoba[0];
+			str = kotoba[countPush];
 			FontMetrics fm = ginfo.g.getFontMetrics();
 			int strw = fm.stringWidth(str) / 2;
 			ginfo.g.drawString(str, 200 - strw, 400);
 
 			if(ginfo.keystate[KEY_STATE.SPACE] == true){
-//				for(int i =0; i>6; i++){
-					ginfo.g.setColor(Color.WHITE);
-					ginfo.g.setFont(MyGameDisplay.this.mfont2);
-					str =kotoba[1];
-					fm = ginfo.g.getFontMetrics();
-					strw = fm.stringWidth(str) / 2;
-					ginfo.g.drawString(str, 200 - strw, 400);
+				countPush = countPush + 1;
+//				for(int i = 0; i < 6; i++){
+//					ginfo.g.setColor(Color.WHITE);
+//					ginfo.g.setFont(MyGameDisplay.this.mfont2);
+//					str = kotoba[1];
+//					fm = ginfo.g.getFontMetrics();
+//					strw = fm.stringWidth(str) / 2;
+//					ginfo.g.drawString(str, 200 - strw, 400);
 //				}
 			}
 		}
