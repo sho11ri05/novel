@@ -95,6 +95,9 @@ public class MyGameDisplay extends GameDisplay {
 
 			if(ginfo.keystate[KEY_STATE.SPACE] == true){
 				countPush = countPush + 1;
+				try{
+					Thread.sleep(500); //0.5秒Sleepする
+					}catch(InterruptedException e){}
 //				for(int i = 0; i < 6; i++){
 //					ginfo.g.setColor(Color.WHITE);
 //					ginfo.g.setFont(MyGameDisplay.this.mfont2);
