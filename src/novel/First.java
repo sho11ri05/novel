@@ -62,11 +62,11 @@ public class First {
 
 	void render(){
 		//時間計測
-		long time = System.currentTimeMillis();
+//		long time = System.currentTimeMillis();
 		// 1フレーム分の秒数を求める
-		this.ginfo.frametime = (time - this.lasttime) * 0.001;
-		this.lasttime = time;
-		this.ginfo.currenttime = time;
+//		this.ginfo.frametime = (time - this.lasttime) * 0.001;
+//		this.lasttime = time;
+//		this.ginfo.currenttime = time;
 
 		Graphics2D g = (Graphics2D)this.strategy.getDrawGraphics();
 		g.setBackground(Color.black);
