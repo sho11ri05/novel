@@ -215,8 +215,12 @@ public class MyGameDisplay extends GameDisplay {
 					"",//89
 					""
 			};
+			if (countPush < kotoba.length - 1) {
+				str = kotoba[countPush];
+			} else {
+				str = kotoba[kotoba.length - 1];
+			}
 
-			str = kotoba[countPush];
 			FontMetrics fm = ginfo.g.getFontMetrics();
 			int strw = 0;//fm.stringWidth(str) / 2;
 			ginfo.g.drawString(str, 200 - strw, 400);
@@ -1591,7 +1595,6 @@ public class MyGameDisplay extends GameDisplay {
 			if(countPush == 90){
 				//パッケージhiroi1のGameDisplayに飛ぶ
 				FirstShooting obj1 = new FirstShooting();
-//				MyGameDisplay obj1 = new MyGameDisplay();
 		        obj1.getClass();
 			}else{
 			}
@@ -1695,8 +1698,12 @@ public class MyGameDisplay extends GameDisplay {
 					"",//41
 					""
 			};
+			if (countPush2 < kotoba.length - 1) {
+				str = kotoba[countPush2];
+			} else {
+				str = kotoba[kotoba.length - 1];
+			}
 
-			str = kotoba[countPush2];
 			FontMetrics fm = ginfo.g.getFontMetrics();
 			int strw = 0;//fm.stringWidth(str) / 2;
 			ginfo.g.drawString(str, 200 - strw, 400);
@@ -2390,7 +2397,12 @@ public class MyGameDisplay extends GameDisplay {
 					"",//74
 			};
 
-			str = kotoba[countPush3];
+			if (countPush3 < kotoba.length - 1) {
+				str = kotoba[countPush3];
+			} else {
+				str = kotoba[kotoba.length - 1];
+			}
+
 			FontMetrics fm = ginfo.g.getFontMetrics();
 			int strw = 0;//fm.stringWidth(str) / 2;
 			ginfo.g.drawString(str, 200 - strw, 400);
@@ -3417,8 +3429,12 @@ public class MyGameDisplay extends GameDisplay {
 					"",//36
 					"",//37
 			};
+			if (countPush4 < kotoba.length - 1) {
+				str = kotoba[countPush4];
+			} else {
+				str = kotoba[kotoba.length - 1];
+			}
 
-			str = kotoba[countPush4];
 			FontMetrics fm = ginfo.g.getFontMetrics();
 			int strw = 0;//fm.stringWidth(str) / 2;
 			ginfo.g.drawString(str, 200 - strw, 400);
@@ -4074,7 +4090,13 @@ public class MyGameDisplay extends GameDisplay {
 					"",//48
 			};
 
-			str = kotoba[countPush5];
+			if (countPush5 < kotoba.length - 1) {
+				str = kotoba[countPush5];
+			} else {
+				str = kotoba[kotoba.length - 1];
+			}
+
+
 			FontMetrics fm = ginfo.g.getFontMetrics();
 			int strw = 0;//fm.stringWidth(str) / 2;
 			ginfo.g.drawString(str, 200 - strw, 400);
