@@ -42,6 +42,7 @@ public class FirstShooting {
 		try {
 			this.display.loadMedia();
 		} catch (IOException e) {
+			e.printStackTrace();
 			JOptionPane.showMessageDialog(this.mainwindow,
 					"タイトル画像読み込みエラー");
 		}
