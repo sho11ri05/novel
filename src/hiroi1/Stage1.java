@@ -40,7 +40,7 @@ public class Stage1 extends Stage {
 		this.player.setImage(
 		this.img_chara.getSubimage(0,  0, 100, 100));
 		this.img_back = ImageIO.read(new File("gazou/hiroi2-2.jpg"));
-		this.img_shot = ImageIO.read(new File("gazou/yuki.png"));
+		this.img_shot = ImageIO.read(new File("hiroi1_gazou/yuki.png"));
 		this.img_bullets.add(this.img_shot.getSubimage(0, 0, 34, 34));
 
 		//サウンド
