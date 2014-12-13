@@ -258,31 +258,14 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 350 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}else{
 			}
 			if(countPush == 6){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 350 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 350 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 
 
@@ -291,52 +274,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 8){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 9){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ゼウス
@@ -344,52 +294,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 11){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 12){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ヘラ
@@ -397,52 +314,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 14){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 15){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ナレーション１
@@ -450,52 +334,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 17){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 18){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ナレーション２
@@ -503,52 +354,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 20){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 21){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ヘラ
@@ -556,31 +374,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 23){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ゼウス
@@ -588,14 +388,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ヘラ
@@ -603,31 +396,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 26){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ゼウス、ヘラ、ナレーション、ヘラ、ゼウス、ヘラ
@@ -635,88 +410,29 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ナレーション
 			if(countPush == 33){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 34){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 35){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 36){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 460);
+				this.drowTextField(4, ginfo, img_waku, kotoba, countPush);
 			}
 
 
@@ -733,14 +449,7 @@ public class MyGameDisplay extends GameDisplay {
 			if(countPush == 38){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//アルテミス
@@ -748,14 +457,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//アポロン
@@ -764,14 +466,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ゼウス
@@ -780,54 +475,21 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 42){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 43){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ナレーション
@@ -836,54 +498,21 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 45){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 46){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 
 
@@ -893,32 +522,14 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_k, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 48){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_k, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//アルテミス
@@ -927,54 +538,21 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
 				ginfo.g.drawImage(this.img_al_a, 350, 95, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 50){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
 				ginfo.g.drawImage(this.img_al_a, 350, 95, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 51){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
 				ginfo.g.drawImage(this.img_al_a, 350, 95, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 
 
@@ -984,80 +562,28 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 53){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 54){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_k, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 55){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_k, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 460);
+				this.drowTextField(4, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ゼウス、アポロン
@@ -1066,14 +592,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ゼウス
@@ -1082,14 +601,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//アルテミス
@@ -1098,32 +610,14 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 60){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ゼウス
@@ -1132,14 +626,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//アポロン
@@ -1148,14 +635,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_a, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 
@@ -1165,14 +645,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_a, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 
@@ -1182,54 +655,21 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_a, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 65){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_a, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 66){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_a, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ゼウス
@@ -1238,54 +678,21 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 68){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 69){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//アポロン、ゼウス
@@ -1294,14 +701,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//アルテミス
@@ -1310,32 +710,14 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 73){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ゼウス、アルテミス
@@ -1344,14 +726,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//アポロン
@@ -1360,54 +735,21 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_k, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 77){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_k, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 78){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_k, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ゼウス
@@ -1416,14 +758,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//アルテミス
@@ -1432,32 +767,14 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_apo_a, 500, 80, null);
 				ginfo.g.drawImage(this.img_al_a, 350, 95, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 81){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_apo_a, 500, 80, null);
 				ginfo.g.drawImage(this.img_al_a, 350, 95, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//アポロン
@@ -1466,54 +783,21 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 83){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 84){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ゼウス
@@ -1522,32 +806,14 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 86){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 
 			//ナレーション
@@ -1556,32 +822,14 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush);
 			}
 			if(countPush == 88){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_al_s, 350, 95, null);
 				ginfo.g.drawImage(this.img_apo_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush);
 			}
 
 
@@ -1727,14 +975,7 @@ public class MyGameDisplay extends GameDisplay {
 			if(countPush2 == 1){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}else{
 			}
 
@@ -1742,30 +983,12 @@ public class MyGameDisplay extends GameDisplay {
 			if(countPush2 == 2){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 3){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ヘルメス、ゼウス
@@ -1773,14 +996,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_heru_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ナレーション
@@ -1788,52 +1004,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_heru_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 7){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_heru_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 8){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_heru_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ヘルメス、ゼウス
@@ -1841,14 +1024,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_heru_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ナレーション
@@ -1856,31 +1032,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_heru_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 12){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_heru_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ゼウス、ヘルメス、ゼウス
@@ -1888,104 +1046,43 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_heru_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ナレーション
 			if(countPush2 == 16){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_heru_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 17){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_heru_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ヘルメス
 			if(countPush2 == 18){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_heru_k, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 19){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_heru_k, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ナレーション
 			if(countPush2 == 20){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_heru_k, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 21){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_heru_k, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ローディング画面絵
@@ -1999,14 +1096,7 @@ public class MyGameDisplay extends GameDisplay {
 			if(countPush2 == 23){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ハデス
@@ -2014,14 +1104,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ナレーション
@@ -2029,52 +1112,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 26){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 27){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ゼウス、ハデス、ゼウス
@@ -2082,14 +1132,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ハデス
@@ -2097,52 +1140,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 32){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 33){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ゼウス
@@ -2150,31 +1160,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 35){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ハデス
@@ -2182,31 +1174,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 37){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ゼウス
@@ -2214,14 +1188,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ナレーション
@@ -2229,31 +1196,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush2);
 			}
 			if(countPush2 == 40){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush2-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush2);
 			}
 
 			//ローディング画面絵
@@ -2427,14 +1376,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ナレーション
@@ -2442,31 +1384,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 5){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ハデス、ゼウス、ハデス
@@ -2474,14 +1398,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_d, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ゼウス
@@ -2489,14 +1406,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ナレーション
@@ -2504,31 +1414,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 11){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ハデス
@@ -2536,31 +1428,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 13){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ナレーション、ゼウス
@@ -2568,14 +1442,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ハデス
@@ -2583,31 +1450,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 17){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ゼウス
@@ -2615,14 +1464,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ナレーション
@@ -2630,31 +1472,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 20){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ハデス、ゼウス、ハデス
@@ -2662,14 +1486,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ゼウス
@@ -2677,58 +1494,26 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ハデス
 			if(countPush3 == 26){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 27){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ナレーション
 			if(countPush3 == 28){
 				ginfo.g.drawImage(this.img_back2, 0, 0, null);
 				ginfo.g.drawImage(this.img_hade_a, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ローディング画面絵
@@ -2742,14 +1527,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_s, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ナレーション
@@ -2757,52 +1535,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_s, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 33){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_s, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 34){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_s, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ゼウス、ペルセポネ、ゼウス、ペルセポネ、ゼウス
@@ -2810,14 +1555,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_s, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ペルセポネ
@@ -2825,31 +1563,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_s, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 41){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_s, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ゼウス
@@ -2857,14 +1577,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_s, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ペルセポネ
@@ -2872,31 +1585,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 44){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ナレーション
@@ -2904,14 +1599,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ゼウス
@@ -2919,31 +1607,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 47){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ペルセポネ
@@ -2951,31 +1621,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 49){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ゼウス、ペルセポネ
@@ -2983,14 +1635,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ナレーション
@@ -2998,77 +1643,25 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 53){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 54){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 55){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 460);
+				this.drowTextField(4, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ペルセポネ
@@ -3076,14 +1669,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ゼウス
@@ -3091,14 +1677,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ペルセポネ
@@ -3106,52 +1685,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 59){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 60){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ゼウス
@@ -3159,42 +1705,21 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ナレーション
 			if(countPush3 == 62){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_peru_n, 450, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ペルセポネ、ナレーション
 			if((countPush3 == 63) || (countPush3 == 64)){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_peru_s, 20, 120, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ハデス
@@ -3202,14 +1727,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_peru_s, 20, 120, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ペルセポネ
@@ -3217,52 +1735,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_peru_s, 20, 120, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 67){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_peru_s, 20, 120, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 68){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_peru_s, 20, 120, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ハデス
@@ -3270,14 +1755,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_peru_s, 20, 120, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ペルセポネ
@@ -3285,14 +1763,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_peru_n, 20, 120, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ナレーション
@@ -3300,31 +1771,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_peru_n, 20, 120, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush3);
 			}
 			if(countPush3 == 72){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_peru_n, 20, 120, null);
 				ginfo.g.drawImage(this.img_hade_s, 500, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush3-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush3];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush3);
 			}
 
 			//ローディング画面絵
@@ -3459,14 +1912,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ヘラ
@@ -3474,14 +1920,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ナレーション
@@ -3489,52 +1928,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 			if(countPush4 == 4){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush4);
 			}
 			if(countPush4 == 5){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush4-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ヘラ
@@ -3542,31 +1948,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 			if(countPush4 == 7){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ゼウス
@@ -3574,31 +1962,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 			if(countPush4 == 9){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ヘラ
@@ -3606,14 +1976,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ナレーション
@@ -3621,14 +1984,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ゼウス
@@ -3636,14 +1992,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ナレーション
@@ -3651,31 +2000,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 			if(countPush4 == 14){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ゼウス
@@ -3683,14 +2014,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ナレーション
@@ -3698,52 +2022,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 			if(countPush4 == 17){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush4);
 			}
 			if(countPush4 == 18){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush4-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ヘラ
@@ -3751,14 +2042,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ゼウス
@@ -3766,14 +2050,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ナレーション
@@ -3781,14 +2058,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ヘラ
@@ -3796,14 +2066,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ゼウス
@@ -3811,14 +2074,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ナレーション
@@ -3826,31 +2082,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 			if(countPush4 == 25){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ヘラ
@@ -3858,31 +2096,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 			if(countPush4 == 27){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ゼウス
@@ -3890,14 +2110,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ヘラ
@@ -3905,45 +2118,20 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 			if(countPush4 == 30){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ゼウス
 			if(countPush4 == 31){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//ナレーション
@@ -3951,31 +2139,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush4);
 			}
 			if(countPush4 == 33){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush4-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush4];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush4);
 			}
 
 			//END
@@ -4121,14 +2291,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ナレーション
@@ -4136,52 +2299,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 4){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 5){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ヘラ
@@ -4189,31 +2319,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 7){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_k, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ゼウス
@@ -4221,31 +2333,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 9){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_d, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ヘラ
@@ -4253,14 +2347,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ナレーション
@@ -4268,14 +2355,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ゼウス
@@ -4283,14 +2363,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ナレーション
@@ -4298,31 +2371,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 14){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ヘラ、ゼウス、ナレーション
@@ -4330,14 +2385,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ヘラ
@@ -4345,14 +2393,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ゼウス
@@ -4360,31 +2401,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 20){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ヘラ
@@ -4392,55 +2415,23 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_a, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ナレーション
 			if(countPush5 == 22){
 				ginfo.g.drawImage(this.img_hera1, 0, 0, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 23){
 				ginfo.g.drawImage(this.img_hera2, 0, 0, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ヘラ
 			if(countPush5 == 24){
 				ginfo.g.drawImage(this.img_hera2, 0, 0, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ゼウス
@@ -4448,31 +2439,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_k, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 26){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_k, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ヘラ
@@ -4480,31 +2453,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 28){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_s, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ナレーション
@@ -4512,31 +2467,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 30){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ヘラ
@@ -4544,14 +2481,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ゼウス
@@ -4559,14 +2489,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ナレーション
@@ -4574,31 +2497,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 34){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ローディング画面絵
@@ -4612,14 +2517,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ゼウス
@@ -4627,14 +2525,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ナレーション
@@ -4642,31 +2533,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 39){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ヘラ
@@ -4674,52 +2547,19 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 41){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 42){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-2];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 440);
+				this.drowTextField(3, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ゼウス
@@ -4727,14 +2567,7 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ナレーション
@@ -4742,31 +2575,13 @@ public class MyGameDisplay extends GameDisplay {
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
+				this.drowTextField(1, ginfo, img_waku, kotoba, countPush5);
 			}
 			if(countPush5 == 45){
 				ginfo.g.drawImage(this.img_back1, 0, 0, null);
 				ginfo.g.drawImage(this.img_zeu_s, 20, 80, null);
 				ginfo.g.drawImage(this.img_hera_t, 400, 80, null);
-				ginfo.g.drawImage(this.img_waku, 100, 350, null);
-				ginfo.g.setColor(Color.WHITE);
-				ginfo.g.setFont(MyGameDisplay.this.mfont2);
-
-				str = kotoba[countPush5-1];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 400);
-				str = kotoba[countPush5];
-				fm = ginfo.g.getFontMetrics();
-				strw = fm.stringWidth(str) / 2;
-				ginfo.g.drawString(str, 380 - strw, 420);
+				this.drowTextField(2, ginfo, img_waku, kotoba, countPush5);
 			}
 
 			//ナレーション
