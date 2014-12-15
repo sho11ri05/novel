@@ -14,9 +14,9 @@ public abstract class GameDisplay {
 	protected long endtime;  //終わり時間
 
 	//開始時間設定
-//	public void setStartTime(long st){
-//		this.starttime = st;
-//	}
+	public void setStartTime(long st){
+		this.starttime = st;
+	}
 
 	//現在のディスプレイを返す
 	public GameDisplay getCurrentDisplay(){

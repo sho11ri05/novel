@@ -1,6 +1,4 @@
-package game.novel;
-
-import game.GraphicsInfo;
+package game;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
