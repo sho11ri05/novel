@@ -18,9 +18,9 @@ import javax.imageio.ImageIO;
 
 public class MyGameDisplay extends GameDisplay {
 
-	GameDisplay title, main;
+	public GameDisplay title, main;
 	public GameDisplay over;
-	GameDisplay clear;
+	public GameDisplay clear;
 	private Font mfont = new Font("Sanserif", Font.BOLD, 50);
 	ArrayList<Stage> stagelist = new ArrayList<Stage>();
 	Stage stage = null;
@@ -122,7 +122,7 @@ public class MyGameDisplay extends GameDisplay {
 			FontMetrics fm = ginfo.g.getFontMetrics();
 			int strw = fm.stringWidth(str) / 2;
 			ginfo.g.drawString(str, 400 - strw, 200);
-
+			GameDisplay.current = game.MyGameDisplay.center2;
 
 //			ginfo.g.setColor(Color.BLUE);
 //			ginfo.g.setFont(MyGameDisplay.this.mfont);

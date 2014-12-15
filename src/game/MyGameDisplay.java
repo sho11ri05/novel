@@ -11,7 +11,13 @@ import javax.imageio.ImageIO;
 
 public class MyGameDisplay extends GameDisplay {
 
-	GameDisplay title, start, center, center2, bad_end, happy_end;
+	public static GameDisplay title, start;
+	public static GameDisplay center;
+	public static GameDisplay center2;
+	public static GameDisplay bad_end;
+	public static GameDisplay happy_end;
+	public static game.hirois.hiroi1.MyGameDisplay h1_display;
+	public static game.hirois.hiroi2.MyGameDisplay h2_display;
 	private Font mfont = new Font("Sanserif", Font.BOLD, 35);
 	private Font mfont2 = new Font("Sanserif", Font.BOLD, 15);
 	private int countPush = 0;
@@ -22,13 +28,15 @@ public class MyGameDisplay extends GameDisplay {
 	public int score = 0;  //スコア
 
 	public MyGameDisplay(){
-		this.title = new MyGameTitle();
-		this.start = new MyGameStart();
-		this.center = new MyGameCenter();
-		this.center2 = new MyGameCenter2();
-		this.bad_end = new MyGameBad_end();
-		this.happy_end = new MyGameHappy_end();
-		GameDisplay.current = this.title;
+		MyGameDisplay.title = new MyGameTitle();
+		MyGameDisplay.start = new MyGameStart();
+		MyGameDisplay.center = new MyGameCenter();
+		MyGameDisplay.center2 = new MyGameCenter2();
+		MyGameDisplay.bad_end = new MyGameBad_end();
+		MyGameDisplay.happy_end = new MyGameHappy_end();
+		MyGameDisplay.h1_display = new game.hirois.hiroi1.MyGameDisplay();
+		MyGameDisplay.h2_display = new game.hirois.hiroi2.MyGameDisplay();
+		GameDisplay.current = MyGameDisplay.title;
 	}
 
 //	//hiroi1
@@ -50,12 +58,14 @@ public class MyGameDisplay extends GameDisplay {
 
 	@Override
 	public void loadMedia() throws IOException {
-		this.title.loadMedia();
-		this.start.loadMedia();
-		this.center.loadMedia();
-		this.center2.loadMedia();
-		this.bad_end.loadMedia();
-		this.happy_end.loadMedia();
+		MyGameDisplay.title.loadMedia();
+		MyGameDisplay.start.loadMedia();
+		MyGameDisplay.center.loadMedia();
+		MyGameDisplay.center2.loadMedia();
+		MyGameDisplay.bad_end.loadMedia();
+		MyGameDisplay.happy_end.loadMedia();
+		MyGameDisplay.h1_display.loadMedia();
+		MyGameDisplay.h2_display.loadMedia();
 	}
 
 
@@ -76,7 +86,7 @@ public class MyGameDisplay extends GameDisplay {
 			ginfo.g.drawString(str, 200 - strw, 330);
 
 			if(ginfo.keystate[KEY_STATE.SPACE] == true){
-				GameDisplay.current = MyGameDisplay.this.start;
+				GameDisplay.current = MyGameDisplay.start;
 				/**
 				 * 最後にコメントを取る
 				GameDisplay.current = MyGameDisplay.this.start;
@@ -840,7 +850,7 @@ public class MyGameDisplay extends GameDisplay {
 
 			if(countPush == 90){
 				//パッケージhiroi1のGameDisplayに飛ぶ
-				
+				GameDisplay.current = MyGameDisplay.h1_display.title;
 			}else{
 			}
 
@@ -1210,7 +1220,7 @@ public class MyGameDisplay extends GameDisplay {
 			}
 
 			if(countPush2 == 42){
-				GameDisplay.current = MyGameDisplay.this.center2;
+				GameDisplay.current = MyGameDisplay.h2_display.title;
 			}else{
 			}
 
@@ -1785,9 +1795,9 @@ public class MyGameDisplay extends GameDisplay {
 			}
 
 			if((countPush3 == 74) && (score >= 10)){
-				GameDisplay.current = MyGameDisplay.this.happy_end;
+				GameDisplay.current = MyGameDisplay.happy_end;
 			}else if((countPush3 == 74) && (score <= 10)){
-				GameDisplay.current = MyGameDisplay.this.bad_end;
+				GameDisplay.current = MyGameDisplay.bad_end;
 			}
 
 
