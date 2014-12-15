@@ -1,5 +1,10 @@
 package game.hirois.hiroi2;
 
+import game.GraphicsInfo;
+import game.hirois.GameChara;
+import game.hirois.Pattern;
+import game.hirois.Stage;
+
 import java.util.ArrayList;
 
 public class BossA extends GameChara {

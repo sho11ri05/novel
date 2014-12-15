@@ -1,5 +1,10 @@
 package game.hirois.hiroi2;
 
+import game.GraphicsInfo;
+import game.hirois.Shooter;
+import game.hirois.Stage;
+import game.hirois.Vector2D;
+
 import java.awt.geom.Point2D;
 
 public class WideShooterL extends Shooter {
@@ -14,7 +19,7 @@ public class WideShooterL extends Shooter {
 		this.v.rotateVector(r);
 		r = 20.0 / 180.0 * Math.PI;
 		for(int i=0; i<4; i++){
-			BulletChara bullet = stage.searchBullet();
+			BulletChara bullet = (BulletChara) stage.searchBullet();
 			if(bullet == null) return;
 			bullet.mover = StraightMover.singleton;
 			bullet.position.x = position.x;

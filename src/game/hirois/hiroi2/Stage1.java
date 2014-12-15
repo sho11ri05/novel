@@ -1,5 +1,9 @@
 package game.hirois.hiroi2;
 
+import game.GraphicsInfo;
+import game.SoundBox;
+import game.hirois.*;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -19,13 +23,19 @@ public class Stage1 extends Stage {
 
 	public static final int INAZUMA = 10000;
 
-	private ArrayList<BulletChara> inazuma = new ArrayList<BulletChara>(INAZUMA);
+	private ArrayList<BulletCharaAbstract> inazuma = new ArrayList<BulletCharaAbstract>(0);
 
 	private ArrayList<BufferedImage> img_bullets = new ArrayList<BufferedImage>();
 	public static int INA = 0;
 	private int score2 =0;
 	private Font mfont = new Font("Sanserif", Font.BOLD, 30);
-
+	
+	public Stage1() {
+		ArrayList<BulletChara> array = new ArrayList<BulletChara>(INAZUMA);
+		for (int i = 0; i < array.size(); i++) {
+			inazuma.add((BulletCharaAbstract) array.get(i));
+		}
+	}
 
 	@Override
 	public GameChara getPlayer() {
@@ -97,7 +107,7 @@ public class Stage1 extends Stage {
 	}
 
 	@Override
-	public ArrayList<BulletChara> getIna() {
+	public ArrayList<BulletCharaAbstract> getBullet() {
 		return this.inazuma;
 	}
 

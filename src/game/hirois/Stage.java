@@ -1,7 +1,7 @@
-package game.hirois.hiroi1;
+package game.hirois;
 
-import game.hirois.GameChara;
-import game.hirois.GraphicsInfo;
+import game.GraphicsInfo;
+import game.hirois.BulletCharaAbstract;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -21,7 +21,7 @@ public abstract class Stage {
 
 
 	//雪のデータを取得する
-	public abstract ArrayList<BulletChara> getYuki1();
+	public abstract ArrayList<BulletCharaAbstract> getBullet();
 
 
 	//弾の画像を取得する
@@ -29,14 +29,14 @@ public abstract class Stage {
 
 	//空いている雪を探す
 	protected int searchidx = 0;
-	public BulletChara searchBullet(){
-		ArrayList<BulletChara> yuki1 = this.getYuki1();
-		int m = yuki1.size();
+	public BulletCharaAbstract searchBullet(){
+		ArrayList<BulletCharaAbstract> bullet = this.getBullet();
+		int m = bullet.size();
 
 		//雪を探す
 		for(;this.searchidx < m; this.searchidx++){
-			if(yuki1.get(this.searchidx).visible == false) {
-				return yuki1.get(this.searchidx);
+			if(bullet.get(this.searchidx).visible == false) {
+				return bullet.get(this.searchidx);
 			}
 		}
 		//空きがないときはnullを返して発射キャンセル

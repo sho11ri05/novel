@@ -1,5 +1,11 @@
 package game.hirois.hiroi2;
 
+import game.GraphicsInfo;
+import game.hirois.GameChara;
+import game.hirois.Pattern;
+import game.hirois.Stage;
+import game.hirois.hiroi2.WideShooterR;
+
 import java.awt.Color;
 import java.awt.geom.Line2D;
 import java.util.ArrayList;

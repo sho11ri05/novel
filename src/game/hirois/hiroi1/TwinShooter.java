@@ -1,7 +1,8 @@
 package game.hirois.hiroi1;
 
-import game.hirois.GraphicsInfo;
+import game.GraphicsInfo;
 import game.hirois.Shooter;
+import game.hirois.Stage;
 
 import java.awt.geom.Point2D;
 import java.util.Random;
@@ -14,7 +15,7 @@ public class TwinShooter extends Shooter {
         Random r = new Random();
 
 		for(int i=0; i<2; i++){
-			BulletChara bullet = stage.searchBullet();
+			BulletChara bullet = (BulletChara) stage.searchBullet();
 			if(bullet == null) return;
 			bullet.mover = StraightMover.singleton;
 			bullet.position.x =    r.nextInt(780);          //乱数を取得する

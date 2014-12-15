@@ -1,8 +1,9 @@
 package game.hirois.hiroi1;
 
-import game.hirois.GameDisplay;
-import game.hirois.GraphicsInfo;
-import game.hirois.KEY_STATE;
+import game.GameDisplay;
+import game.GraphicsInfo;
+import game.KEY_STATE;
+import game.hirois.Stage;
 
 import java.awt.Color;
 import java.awt.Font;

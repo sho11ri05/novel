@@ -1,5 +1,7 @@
 package game.hirois;
 
+import game.GraphicsInfo;
+
 
 public class Effect {
 

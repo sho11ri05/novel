@@ -1,8 +1,10 @@
 package game.hirois.hiroi1;
 
+import game.GraphicsInfo;
+import game.SoundBox;
+import game.hirois.BulletCharaAbstract;
 import game.hirois.GameChara;
-import game.hirois.GraphicsInfo;
-import game.hirois.SoundBox;
+import game.hirois.Stage;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -10,6 +12,7 @@ import java.awt.FontMetrics;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 import javax.imageio.ImageIO;
@@ -22,8 +25,7 @@ public class Stage1 extends Stage {
 	private BossA enemy = new BossA();
 	public static final int YUKI_1 = 2000; //雪の弾数
 
-	private ArrayList<BulletChara> yuki1 =
-			new ArrayList<BulletChara>(YUKI_1);
+	private ArrayList<BulletCharaAbstract> yuki1 = new ArrayList<BulletCharaAbstract>(0);
 
 	private ArrayList<BufferedImage> img_bullets =
 			new ArrayList<BufferedImage>();
@@ -33,6 +35,13 @@ public class Stage1 extends Stage {
 	public int score =0;
 	private Font mfont = new Font("Sanserif", Font.BOLD, 30);
 
+	public Stage1() {
+		ArrayList<BulletChara> array = new ArrayList<BulletChara>(YUKI_1);
+		for (int i = 0; i < array.size(); i++) {
+			yuki1.add((BulletCharaAbstract) array.get(i));
+		}
+	}
+	
 	@Override
 	public GameChara getPlayer() {
 		return this.player;
@@ -101,7 +110,7 @@ public class Stage1 extends Stage {
 	}
 
 	@Override
-	public ArrayList<BulletChara> getYuki1() {
+	public ArrayList<BulletCharaAbstract> getBullet() {
 		return this.yuki1;
 	}
 

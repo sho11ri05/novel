@@ -1,6 +1,7 @@
 package game.hirois;
 
-import game.hirois.hiroi1.Stage;
+import game.GraphicsInfo;
+import game.hirois.Stage;
 
 
 public abstract class Pattern {

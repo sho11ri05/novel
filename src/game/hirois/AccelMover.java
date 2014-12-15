@@ -1,13 +1,13 @@
 package game.hirois;
 
-import game.hirois.hiroi1.BulletChara;
-import game.hirois.hiroi1.Stage;
+import game.GraphicsInfo;
+import game.hirois.*;
 
 
 public class AccelMover extends BulletMover {
 
 	@Override
-	public void move(GraphicsInfo ginfo, Stage stage, BulletChara bullet) {
+	public void move(GraphicsInfo ginfo, Stage stage, BulletCharaAbstract bullet) {
 		if( bullet.position.x < 0 ||
 			bullet.position.x > stage.getWidth() ||
 			bullet.position.y < 0 ||

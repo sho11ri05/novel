@@ -1,10 +1,10 @@
 package game.hirois;
 
-import game.hirois.hiroi1.BulletChara;
-import game.hirois.hiroi1.Stage;
+import game.GraphicsInfo;
+import game.hirois.*;
 
 
 public abstract class BulletMover {
-	public abstract void move(GraphicsInfo ginfo, Stage stage, BulletChara bullet) ;
+	public abstract void move(GraphicsInfo ginfo, Stage stage, BulletCharaAbstract bullet) ;
 
 }

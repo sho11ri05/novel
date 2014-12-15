@@ -1,24 +1,20 @@
 package game.hirois;
 
-import game.hirois.hiroi1.BulletChara;
-import game.hirois.hiroi1.Stage;
-
+import game.GraphicsInfo;
 
 public class ChaseMover extends BulletMover {
 
 	private Vector2D v = new Vector2D();
 
 	@Override
-	public void move(GraphicsInfo ginfo, Stage stage, BulletChara bullet) {
-		if( bullet.position.x < 0 ||
-				bullet.position.x > stage.getWidth() ||
-				bullet.position.y < 0 ||
-				bullet.position.y > stage.getHeight())
-		{
+	public void move(GraphicsInfo ginfo, Stage stage, BulletCharaAbstract bullet) {
+		if (bullet.position.x < 0 || bullet.position.x > stage.getWidth()
+				|| bullet.position.y < 0
+				|| bullet.position.y > stage.getHeight()) {
 			bullet.visible = false;
 		}
 		long l = ginfo.currenttime - bullet.getStartTime();
-		if(l % 1500 < 10){
+		if (l % 1500 < 10) {
 			bullet.vector.x = stage.getPlayer().position.x;
 			bullet.vector.y = stage.getPlayer().position.y;
 			v.x = bullet.position.x;

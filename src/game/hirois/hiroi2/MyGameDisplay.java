@@ -1,5 +1,10 @@
 package game.hirois.hiroi2;
 
+import game.GameDisplay;
+import game.GraphicsInfo;
+import game.KEY_STATE;
+import game.hirois.Stage;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;

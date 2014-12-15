@@ -1,8 +1,9 @@
 package game.hirois.hiroi1;
 
+import game.GraphicsInfo;
 import game.hirois.GameChara;
-import game.hirois.GraphicsInfo;
 import game.hirois.Pattern;
+import game.hirois.Stage;
 
 import java.util.ArrayList;
 

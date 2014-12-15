@@ -1,7 +1,9 @@
 package game.hirois.hiroi1;
 
-import game.hirois.GraphicsInfo;
+import game.GraphicsInfo;
+import game.hirois.BulletCharaAbstract;
 import game.hirois.Shooter;
+import game.hirois.Stage;
 
 import java.awt.geom.Point2D;
 import java.util.Random;
@@ -15,7 +17,7 @@ public class SprayShooter extends Shooter {
 
 //		double d = Effect.linear(ginfo, 3000, 0.0, Math.PI * 2.0);
 //		double r = Math.sin(d) / 2;
-		BulletChara bullet = stage.searchBullet();
+		BulletChara bullet = (BulletChara) stage.searchBullet();
 		if(bullet == null) return;
 		bullet.mover = StraightMover.singleton;
 		bullet.position.x =    r.nextInt(780);          //乱数を取得する //position.x;

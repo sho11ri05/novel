@@ -1,5 +1,9 @@
 package game.hirois.hiroi2;
 
+import game.GraphicsInfo;
+import game.hirois.Shooter;
+import game.hirois.Stage;
+
 import java.awt.geom.Point2D;
 import java.util.Random;
 
@@ -11,7 +15,7 @@ public class RollingShooter extends Shooter {
         Random l = new Random();
 
 		double r = 180.0 / 180.0 * Math.PI;  //弾の飛んでいく向き
-		BulletChara bullet = stage.searchBullet();
+		BulletChara bullet = (BulletChara) stage.searchBullet();
 		if(bullet == null) return;
 		bullet.mover = StraightMover.singleton;
 		bullet.position.x =  l.nextInt(780);          //乱数を取得する //position.x;

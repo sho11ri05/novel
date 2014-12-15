@@ -1,7 +1,8 @@
 package game.hirois;
 
-import game.hirois.hiroi1.Stage;
-import game.hirois.hiroi1.WideShooterL;
+import game.GraphicsInfo;
+import game.hirois.*;
+import game.hirois.hiroi2.WideShooterL;
 
 import java.awt.Color;
 import java.awt.geom.Line2D;

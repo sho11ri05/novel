@@ -1,13 +1,13 @@
 package game.hirois;
 
-import game.hirois.hiroi1.BulletChara;
-import game.hirois.hiroi1.Stage;
+import game.GraphicsInfo;
+import game.hirois.*;
 
 
 public class TornadeMover extends BulletMover {
 
 	@Override
-	public void move(GraphicsInfo ginfo, Stage stage, BulletChara bullet) {
+	public void move(GraphicsInfo ginfo, Stage stage, BulletCharaAbstract bullet) {
 		if( bullet.position.x < -200 ||
 				bullet.position.x > stage.getWidth() + 200 ||
 				bullet.position.y < -200 ||
