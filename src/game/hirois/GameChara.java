@@ -1,4 +1,6 @@
-package game.hirois.hiroi1;
+package game.hirois;
+
+import game.hirois.hiroi1.Stage;
 
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Point2D;

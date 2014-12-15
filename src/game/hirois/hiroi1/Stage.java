@@ -1,5 +1,8 @@
 package game.hirois.hiroi1;
 
+import game.hirois.GameChara;
+import game.hirois.GraphicsInfo;
+
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.ArrayList;

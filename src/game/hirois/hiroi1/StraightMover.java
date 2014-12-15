@@ -1,5 +1,8 @@
 package game.hirois.hiroi1;
 
+import game.hirois.BulletMover;
+import game.hirois.GraphicsInfo;
+
 
 public class StraightMover extends BulletMover {
 	public void move(GraphicsInfo ginfo, Stage stage, BulletChara bullet) {

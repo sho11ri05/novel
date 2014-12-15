@@ -1,5 +1,10 @@
 package game.hirois.hiroi1;
 
+import game.hirois.GameChara;
+import game.hirois.GraphicsInfo;
+import game.hirois.KEY_STATE;
+import game.hirois.Vector2D;
+
 
 public class PlayerChara extends GameChara {
 	public static final double SPEED = 200;

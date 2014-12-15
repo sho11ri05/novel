@@ -1,5 +1,8 @@
 package game.hirois.hiroi1;
 
+import game.hirois.GraphicsInfo;
+import game.hirois.KEY_STATE;
+
 import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.event.KeyAdapter;

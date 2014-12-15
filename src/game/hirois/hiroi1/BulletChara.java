@@ -1,5 +1,10 @@
 package game.hirois.hiroi1;
 
+import game.hirois.BulletMover;
+import game.hirois.GameChara;
+import game.hirois.GraphicsInfo;
+import game.hirois.Vector2D;
+
 
 public class BulletChara extends GameChara {
 

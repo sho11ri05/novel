@@ -1,5 +1,9 @@
 package game.hirois.hiroi1;
 
+import game.hirois.GameChara;
+import game.hirois.GraphicsInfo;
+import game.hirois.SoundBox;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;

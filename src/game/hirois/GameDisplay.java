@@ -1,4 +1,4 @@
-package game.hirois.hiroi1;
+package game.hirois;
 
 import java.io.IOException;
 

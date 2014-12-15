@@ -1,5 +1,9 @@
 package game.hirois.hiroi1;
 
+import game.hirois.GraphicsInfo;
+import game.hirois.Shooter;
+import game.hirois.Vector2D;
+
 import java.awt.geom.Point2D;
 
 public class WideShooterR extends Shooter {

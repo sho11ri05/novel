@@ -1,4 +1,4 @@
-package game.hirois.hiroi1;
+package game.hirois;
 
 public class KEY_STATE {
 	public static final int LEFT = 0;
